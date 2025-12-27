@@ -19,8 +19,8 @@ A simple real-time web application that analyzes your text and provides live sta
 
 ## Screenshots
 
-![Screenshot 1](images/desktopView.png)  
-![Screenshot 2](images/mobileView.png)
+<img src="images/desktop-view.png" width="1000px"><br>
+<img src="images/mobile-view.png" width="300px">
 
 ## Technologies Used
 
