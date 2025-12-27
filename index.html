@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="logo-container">
+          <div class="logo">
+            <div class="circle"></div>
+          </div>
+          <h3>Character Counter</h3>
+        </div>
+        <button class="theme-toggle" id="theme-btn">🔆</button>
+      </nav>
+      <header>
+        <h1 class="header-text">Analyze your text</h1>
+        <h2 class="header-text">in real-time</h2>
+      </header>
+      <section>
+        <textarea
+          name="text"
+          id="textBox"
+          placeholder="Start typing here...(or paste your text)"
+        ></textarea>
+        <div class="check-boxes">
+          <div class="label">
+            <input type="checkbox" class="check" id="exclude-spaces" /> Exclude
+            Spaces
+          </div>
+          <div class="label">
+            <input type="checkbox" class="check" id="set-limit" /> Set character
+            limit
+          </div>
+          <input
+            type="number"
+            class="char-limit-input"
+            id="limit-char-input"
+            placeholder="Set Limit"
+          />
+        </div>
+        <div class="counters-container">
+          <div class="counter character" id="char">
+            <h1>00</h1>
+            <h4>Characters Count</h4>
+          </div>
+          <div class="counter word" id="word">
+            <h1>00</h1>
+            <h4>Words Count</h4>
+          </div>
+          <div class="counter sentence" id="sentence">
+            <h1>00</h1>
+            <h4>Sentences Count</h4>
+          </div>
+        </div>
+        <h2>Letter Density</h2>
+        <div class="density-container" id="d-container"></div>
+        <button id="see-more" class="see-btn">See More ▼</button>
+        <button id="see-less" class="see-btn">See Less ▲</button>
+        <p id="no-letters-found-p" style="display: block">
+          No letters found. Start typing to see letter density
+        </p>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
