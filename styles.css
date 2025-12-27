@@ -294,6 +294,23 @@ MEDIA QUERI
 }
 
 @media screen and (max-width: 600px) {
+  .header-text {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  #textBox {
+    font-size: 14px;
+  }
+
+  .check-boxes {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
   .counters-container {
     flex-direction: column;
     width: 100%;
