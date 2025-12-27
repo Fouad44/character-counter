@@ -32,3 +32,7 @@ A simple real-time web application that analyzes your text and provides live sta
 
 - The app is fully client-side; no backend required.
 - Works on desktop and mobile devices (responsive layout).
+
+## Live Demo
+
+Check the project live here: [Live Demo](https://fouad44.github.io/character-counter/)
